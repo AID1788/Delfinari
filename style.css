@@ -1,0 +1,140 @@
+header {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #05326D;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+header img {
+    margin: 10px;
+    padding: 10px;
+    
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+header button {
+    border-radius: 10px;
+    background-color: #e1f5ff;
+    width: auto;
+    font-size: 32px;
+    font-family: monospace;
+    margin: auto;
+    border-color: rgb(168, 214, 255);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.header-button:hover {
+    background-color: #a6c5eb;
+    border-color: aliceblue;
+    box-shadow: 0px 0px 20px 1px #76a1ff;
+}
+
+.header-button:active {
+   animation: bounce 0.2s;
+}
+
+@keyframes bounce {
+   0% {
+        transform: scale(1);
+      }
+      10% {
+        transform: scale(0.95);
+      }
+      20% {
+        transform: scale(0.90);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+
+footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #05326D;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    margin-top: 10px;
+}
+
+footer p {
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(81, 132, 226);
+    font-family: monospace;
+    font-size: 24px;
+    max-width: auto 200px;
+}
+
+main {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+main h1 {
+    font-family: Arial;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4282D3;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    width: 45%;
+}
+
+main h2 {
+    border-radius: 20px;
+    border: 10px solid #007143;
+    background: #FFF;
+
+    width: auto;
+    max-width: 330px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: monospace;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+main p {
+    font-family: monospace;
+    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+main img {
+    margin: 0px 10px;
+    width:fit-content;
+    height:110px;
+}
+.main-border {
+    border-radius: 20px;
+    border: 10px solid #60D6A7;
+    background: #FFF;
+    padding: 10px;
+    text-align: justify;
+}
+
+.main-img {
+    margin-top: 10px;
+}
